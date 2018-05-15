@@ -1,0 +1,171 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  margin: 6vh 10vw;
+}
+
+main {
+  margin: 8vh 0vw;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(98,93,73);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 8vh 0vw;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(98,93,73);
+}
+
+h2 {
+  padding-bottom: 2vh;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(98,93,73);
+}
+
+select {
+  overflow:hidden;
+  position: inherit;
+  padding: 0 1vw;
+  height: 3vh;
+  -webkit-appearance: button;
+  -moz-border-radius: 9px 9px 9px 9px;
+  -webkit-border-radius: 9px 9px 9px 9px;
+  border-radius: 9px 9px 9px 9px;
+  box-shadow: 1px 1px 5px rgb(79,167,125);
+}
+
+li {
+  text-decoration: none;
+}
+
+
+h3 {
+  color: rgb(98,93,73);
+  font-size: 22px;
+  font-weight: bold;
+}
+
+link {
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  width: 30vw;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+p {
+  padding-bottom: 3vh;
+  font-size: 18px;
+  color: black;
+}
+
+.main-home {
+  position: absolute;
+  margin: 0vh 0vw;
+  height: 70vh;
+  width: 80vw;
+  background-image: url('https://designmodo.com/wp-content/uploads/2015/08/wheels.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.business-section {
+  display: none;
+  border-style: solid;
+  border-width: medium;
+  border-style: none;
+  border-radius: 30px;
+  background-color: rgb(7,178,118,0.5);
+  margin: 5vh 8vw;
+  padding: 2vh 2vw;
+  flex-direction: column;
+  /*align-items: center;*/
+}
+
+
+.business-section div {
+  padding-top: 3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cruising-bike {
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+}
+
+.cruising-bike img {
+  height: 350px;
+  width: 480px;
+}
+
+.station-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /*padding: 0 10vw;*/
+  margin: 2vh 0vw;
+}
+
+.station-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.station-list {
+  padding-top: 3vh;
+}
+
+.city-div {
+  padding-top: 2vh;
+}
+
+.select-option {
+  border: 2px dashed black;
+}

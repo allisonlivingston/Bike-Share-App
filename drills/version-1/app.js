@@ -1,5 +1,5 @@
-const baseUrl = 'http://api.citybik.es/v2/networks'
-const networkIdUrl = 'http://api.citybik.es'
+const baseUrl = 'https://api.citybik.es/v2/networks'
+const networkIdUrl = 'https://api.citybik.es'
 let countryDropDown = document.querySelector('.country-drop-down')
 let cityDropDown = document.querySelector('.city-drop-down')
 let main = document.querySelector('main')
@@ -22,7 +22,7 @@ function populateCountries(data) {
       }
     }
   countryDropDown.addEventListener('change', () => selectCity(data))
-} 
+}
 
 function selectCity(data) {
   let filteredCities = (data.networks.map((city, index) => {
@@ -109,7 +109,7 @@ function getMoreData(data, event) {
     .then(bikesAvailable)
 }
 
-fetch(baseUrl)
+fetch('https://api.citybik.es/v2/networks')
   .then(response => {
     return response.json()
   })

@@ -1,0 +1,15 @@
+describe('Test Bike Share Website', () => {
+  it('Test functionality of Bike Share Website', () => {
+    cy.visit('/')
+    cy.get('nav').contains('Bike Share')
+    cy.contains('Home')
+    cy.contains('About')
+    cy.contains('Find A Bike')
+    cy.get('a').contains('About').click()
+    cy.url().should('contain', 'aboutSite')
+    cy.get('h2').contains('Welcome!')
+    cy.get('a').contains('Find A Bike').click()
+    cy.url().should('contain', 'contentPage')
+    cy.get('.country-drop-down').its('length').should('be', 57)
+  })
+})

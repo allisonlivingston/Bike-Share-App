@@ -24,10 +24,6 @@ body {
   margin: 6vh 10vw;
 }
 
-main {
-  margin: 8vh 0vw;
-}
-
 h1 {
   font-size: 40px;
   font-weight: bold;
@@ -47,11 +43,8 @@ a {
   color: rgb(98,93,73);
 }
 
-h2 {
-  padding-bottom: 2vh;
-  font-size: 24px;
-  font-weight: bold;
-  color: rgb(98,93,73);
+label, select, option {
+  color: rgb(98,93,73)
 }
 
 select {
@@ -69,7 +62,6 @@ select {
 li {
   text-decoration: none;
 }
-
 
 h3 {
   color: rgb(98,93,73);
@@ -102,14 +94,33 @@ p {
   color: black;
 }
 
+@keyframes myanimation
+{
+  from {
+        left: -75%;
+    }
+    to {
+        left: 95%;
+    }
+}
+
 .main-home {
   position: absolute;
   margin: 0vh 0vw;
   height: 70vh;
-  width: 80vw;
-  background-image: url('https://designmodo.com/wp-content/uploads/2015/08/wheels.gif');
-  background-position: center;
+  width: 75vw;
+  background: url('https://designmodo.com/wp-content/uploads/2015/08/wheels.gif');
   background-repeat: no-repeat;
+  background-position: center;
+  animation: myanimation 6s linear infinite;
+}
+
+.content-header {
+  padding-bottom: 2vh;
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(79,167,125);
+  text-shadow: 1px 1px 1px rgb(98,93,73, 0.5);
 }
 
 .business-section {
@@ -122,12 +133,9 @@ p {
   margin: 5vh 8vw;
   padding: 2vh 2vw;
   flex-direction: column;
-  /*align-items: center;*/
 }
 
-
 .business-section div {
-  padding-top: 3vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -136,19 +144,19 @@ p {
 .cruising-bike {
   display: flex;
   justify-content: center;
-  padding-top: 5vh;
+  padding-top: 3vh;
 }
 
 .cruising-bike img {
   height: 350px;
-  width: 480px;
+  width: 700px;
 }
 
 .station-section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /*padding: 0 10vw;*/
+  padding: 0 8vw;
   margin: 2vh 0vw;
 }
 
@@ -168,4 +176,26 @@ p {
 
 .select-option {
   border: 2px dashed black;
+}
+
+.about-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.moving-bike {
+  height: 385px;
+  width: 520px;
+}
+
+.about-paragraph {
+  padding: 4vh 8vw;
+}
+
+.about-header {
+  font-size:30px;
+  font-weight: bold;
+  color: rgb(79,167,125);
+  text-shadow: 1px 1px 1px rgb(98,93,73, 0.5);
 }

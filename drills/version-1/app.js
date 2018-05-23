@@ -22,11 +22,7 @@ function populateCountries(data) {
       }
     }
   countryDropDown.addEventListener('change', () => selectCity(data))
-}
-
-
-
-
+} 
 
 function selectCity(data) {
   let filteredCities = (data.networks.map((city, index) => {
@@ -83,7 +79,6 @@ function showBusinesses(data) {
 }
 
 function bikesAvailable(data) {
-
   for(let i=0; i<data.network.stations.length; i++) {
     let stationSection = document.createElement('section')
     let stationName = document.createElement('h4')
@@ -105,7 +100,6 @@ function bikesAvailable(data) {
   }
 }
 
-
 function getMoreData(data, event) {
   event.preventDefault()
   fetch(baseUrl + event.target.href.split('/networks')[1])
@@ -120,8 +114,3 @@ fetch(baseUrl)
     return response.json()
   })
   .then(populateCountries)
-
-
-
-
-  //end

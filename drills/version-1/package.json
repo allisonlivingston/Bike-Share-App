@@ -4,6 +4,7 @@
   "description": "For this project, you will build a light application that reads data, has end-to-end testing, and integrates with an API. The topic is up to you, so pick a project that speaks to your interests.",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "npx cypress run"
   },
   "keywords": [],

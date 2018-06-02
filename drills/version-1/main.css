@@ -107,9 +107,9 @@ p {
 .main-home {
   position: absolute;
   margin: 0vh 0vw;
-  height: 70vh;
-  width: 75vw;
-  background: url('https://designmodo.com/wp-content/uploads/2015/08/wheels.gif');
+  height: 500px;
+  width: 1000px;
+  background: url('Home-Page-Bike.gif');
   background-repeat: no-repeat;
   background-position: center;
   animation: myanimation 6s linear infinite;

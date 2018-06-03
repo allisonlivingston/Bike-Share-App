@@ -17,4 +17,4 @@ For this project, you will build a light application that reads data, has end-to
 
 ### Submission
 
-Add a link to your code [here](#), and your deployed site [here](#).
+Add a link to your code [here](https://github.com/livingstona16/galvanize-frontend-app/tree/master/drills/version-1), and your deployed site [here](https://project-2-bike-share.firebaseapp.com).

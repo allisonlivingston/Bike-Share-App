@@ -1,20 +1,23 @@
-## Galvanize Web App
+## Bike Share
 
-For this project, you will build a light application that reads data, has end-to-end testing, and integrates with an API. The topic is up to you, so pick a project that speaks to your interests.
+![Bike Share](./Bike-Share-Screenshot.png)
+
+This website allows you to find bike share locations throughout the world, providing the real time status of bike and bike slots availability.
 
 ### Instructions
 
-* You should have a brochure page that has information about what your app does and who it's for.
-* Your app should make a GET request to an external API
-* Your app should also pull from a second source of data. This can be another API, another endpoint on the same API, or from a local `.json` file
-* You need to write some data transformation that combines the two objects in a meaningful way
-* The resulting data should be dynamically added to the page
-* You should allow a user to change the API end point. For example, get data about a specific movie, weather for a specific zip code, etc
-* Your app should have end-to-end tests
-* Deploy your app
+* Click on the deployed link below to view the app.
+* To learn a little more about the app and find the link to the API used, click "About" in the navigation bar at the top of the page.
+* To view bike share businesses by city, click "Find A Bike" in the navigation bar at the top of the page, select a country from the "Select A Country" dropdown menu, and select a city from the "Select A City" dropdown menu.
+    * To then view the bike station names, and available slots and bikes at those stations, simply click "Bike Stations".
+* To change the city or country of choice, reselect either from their respective dropdown menus.
 
----
+### Deployed Link
 
-### Submission
+Click [here](https://project-2-bike-share.firebaseapp.com) to check out bike shares in your area!
 
-Add a link to your code [here](https://github.com/livingstona16/galvanize-frontend-app/tree/master/drills/version-1), and your deployed site [here](https://project-2-bike-share.firebaseapp.com).
+### Author
+
+Allison Livingston <br />
+Email: allisonlivingston16@gmail.com <br />
+LinkedIn: https://www.linkedin.com/in/allisonlivingston16/
